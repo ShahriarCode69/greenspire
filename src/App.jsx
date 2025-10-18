@@ -1,7 +1,15 @@
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import About from "./Components/About";
 
-export default App
+const App = () => {
+	return (
+		<main className="relative">
+			<Navbar />
+			<Hero />
+			<About/>
+		</main>
+	);
+};
+
+export default App;
