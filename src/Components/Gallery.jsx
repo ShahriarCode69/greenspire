@@ -1,3 +1,5 @@
+import Badge from "./Badge";
+
 const items = [
   {
     id: 1,
@@ -31,12 +33,10 @@ const items = [
 
 const Gallery = () => {
   return (
-    <section className="section bg-[#f6f6f6]">
+    <section className="section mx pb-12 bg-[#f6f6f6]">
       <div className="container">
         <div className="flex-center flex-col">
-          <span className="mb-4 inline-flex scroll-py-12 items-center justify-center rounded-full border-1 border-black/20 bg-white px-3">
-            Gallery
-          </span>
+          <Badge badgeText="Gallery"/>
           <h2 className="heading-md mb-12 text-center !text-black">
             From Patchy Lawns to <br />{" "}
             <span className="font-display italic">Explore Our Gallery</span>

@@ -29,11 +29,11 @@ body {
 }
 
 .section {
-  @apply pt-28 md:pt-48; /* adjust as needed */
+  @apply py-20 ; /* adjust as needed */
 }
 
 .mx {
-  @apply px-6 md:px-12 lg:px-20 xl:px-32; /* Adjust for screens */
+  @apply px-6 md:px-0 lg:px-0 xl:px-0; /* Adjust for screens */
 }
 
 .heading-xl {
