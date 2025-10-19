@@ -5,6 +5,8 @@ import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Gallery from "./Components/Gallery";
 import CoreValues from "./Components/CoreValues";
+import Pricing from "./Components/Pricing";
+import CallToAction from "./Components/CallToAction";
 
 const App = () => {
 	const lenis = useLenis((lenis) => {
@@ -15,8 +17,10 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <Gallery />
       <CoreValues />
+      <Gallery />
+      <Pricing/>
+      <CallToAction />
     </main>
   );
 };

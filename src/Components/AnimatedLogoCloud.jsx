@@ -14,7 +14,7 @@ function AnimatedLogoCloud() {
         pauseOnHover
         gradient
         gradientColor={"#f6f6f6"}
-        className="w-[90%] max-w-4xl"// using RGB array for consistency
+        className="w-[95%] max-w-5xl"// using RGB array for consistency
       >
         {brandLogos.map((logo, index) => (
           <div key={index} className="flex items-center justify-center px-8">

@@ -56,7 +56,7 @@ const Gallery = () => {
               />
 
               {/* Gradient */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/0 to-transparent" />
 
               {/* Text */}
               <div className="absolute inset-x-0 bottom-0 z-10 p-4 text-white sm:p-6">
