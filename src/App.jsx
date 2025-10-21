@@ -1,16 +1,13 @@
 import { ReactLenis, useLenis } from "lenis/react";
+import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./Components/Navbar";
-import Hero from "./Components/Hero";
-import About from "./Components/About";
-import Gallery from "./Components/Gallery";
-import Services from "./Components/Services";
-import CoreValues from "./Components/CoreValues";
-import Articles from "./Components/Articles"
-import Pricing from "./Components/Pricing";
-import ChooseUs from "./Components/ChooseUs"
-import CallToAction from "./Components/CallToAction";
-import Footer from "./Components/Footer";
+
+
+import Home from "./Pages/Home";
+import About from "./Pages/About"
+
+
 
 const App = () => {
 	const lenis = useLenis((lenis) => {
@@ -18,17 +15,11 @@ const App = () => {
   return (
     <main className="relative">
       <ReactLenis root />
-      <Navbar />
-      <Hero />
-      <About />
-      <CoreValues />
-      <Services/>
-      <Gallery />
-      <Articles/>
-      <Pricing/>
-      <ChooseUs/>
-      <CallToAction />
-      <Footer />
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </main>
   );
 };

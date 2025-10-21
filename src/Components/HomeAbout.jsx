@@ -28,7 +28,7 @@ const stats = [
   },
 ];
 
-const About = () => {
+const HomeAbout = () => {
   return (
     <section className="section mx w-full bg-[#f6f6f6]">
       <div className="container flex flex-col">
@@ -77,4 +77,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default HomeAbout;
