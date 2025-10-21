@@ -35,7 +35,7 @@ const CallToAction = () => {
               />
               <Button
                 type="submit"
-                className="flex w-full items-center justify-center gap-2 rounded-full bg-green-300 py-3 font-medium text-gray-900 transition hover:bg-green-400"
+                className="flex w-full items-center justify-center gap-2 rounded-full bg-green-300 py-6 font-medium text-gray-900 transition hover:bg-green-400"
               >
                 Submit
                 <ArrowRight

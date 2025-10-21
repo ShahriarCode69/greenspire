@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const CustomPlan = () => {
   return (
-    <div className="flex flex-col items-start justify-between gap-6 rounded-2xl bg-green-300 p-8 sm:flex-row sm:items-center">
+    <div className="flex flex-col items-start justify-between gap-6 rounded-2xl bg-[#a9ffca] p-8 sm:flex-row sm:items-center">
       {/* Left Side: Text */}
       <div>
         <h2 className="mb-2 text-2xl font-semibold text-gray-900 sm:text-3xl">

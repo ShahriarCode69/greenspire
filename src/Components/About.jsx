@@ -1,5 +1,5 @@
 import AnimatedLogoCloud from "./AnimatedLogoCloud";
-import Badge from "./Badge";
+import Chip from "./Chip";
 
 const stats = [
   {
@@ -39,7 +39,7 @@ const About = () => {
           <AnimatedLogoCloud />
         </div>
         <div className="flex flex-col items-start justify-between xl:flex-row">
-          <Badge badgeText={"About us"} />
+          <Chip badgeText={"About us"} />
           <div className="xl:basis-[75%]">
             <p className="mb-4 text-xl font-medium md:text-3xl">
               At <span className="font-display italic">Greenspire</span> we’ve

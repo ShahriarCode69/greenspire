@@ -1,4 +1,4 @@
-import Badge from "./Badge";
+import Chip from "./Chip";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -35,7 +35,7 @@ const CoreValues = () => {
       />
       <div className="flex flex-col gap-6 xl:gap-12 basis-[50%] justify-between">
         <div>
-          <Badge badgeText="Core Values" />
+          <Chip badgeText="Core Values" />
           <h2 className="heading-md mb-4 !text-black">
             It’s Not Just <span className="font-display italic">Lawn Care</span>
           </h2>

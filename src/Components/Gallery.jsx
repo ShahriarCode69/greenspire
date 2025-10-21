@@ -1,4 +1,4 @@
-import Badge from "./Badge";
+import Chip from "./Chip";
 
 const items = [
   {
@@ -33,10 +33,10 @@ const items = [
 
 const Gallery = () => {
   return (
-    <section className="section mx pb-12 bg-[#f6f6f6]">
+    <section className="section mx bg-[#f6f6f6] pb-12">
       <div className="container">
         <div className="flex-center flex-col">
-          <Badge badgeText="Gallery"/>
+          <Chip badgeText="Gallery" />
           <h2 className="heading-md mb-12 text-center !text-black">
             From Patchy Lawns to <br />{" "}
             <span className="font-display italic">Explore Our Gallery</span>

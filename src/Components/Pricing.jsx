@@ -1,14 +1,14 @@
 import CustomPlan from "./CustomPlan";
 import StarterPlanCard from "./StarterPlanCard";
 import PremiumPlan from "./PremiumPlan"
-import Badge from "./Badge";
+import Chip from "./Chip";
 
 
 const Pricing = () => {
   return (
     <section className="section mx container">
       <div className="flex-center flex-col">
-        <Badge badgeText="Pricing" />
+        <Chip badgeText="Pricing" />
         <h2 className="heading-md mb-4 text-center !text-black">
           Affordable Lawn
           <br /> <span className="font-display italic">Care Plans</span>
