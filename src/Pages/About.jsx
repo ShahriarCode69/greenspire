@@ -1,4 +1,4 @@
-import AboutFooter from "../Components/AboutFooter"
+import Footer2 from "../Components/Footer2";
 import GetInTouch from "../Components/GetInTouch"
 import MainAbout from "../Components/MainAbout"
 import OurMission from "../Components/OurMission"
@@ -9,7 +9,7 @@ const About = () => {
 			<MainAbout/>
 			<OurMission/>
 			<GetInTouch/>
-			<AboutFooter/>
+			<Footer2/>
 		</main>
 	)
 }

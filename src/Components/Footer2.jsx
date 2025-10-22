@@ -30,7 +30,7 @@ const navigationLinks = [
   },
 ];
 
-const AboutFooter = () => {
+const Footer2 = () => {
   return (
     <footer className="relative overflow-hidden bg-[#033040] text-[#eaf6f1]">
       <div className="relative mx-auto flex w-full max-w-6xl flex-col gap-16 px-6 py-16 sm:px-10 lg:gap-20 lg:py-24 xl:px-0">
@@ -56,7 +56,7 @@ const AboutFooter = () => {
               type="button"
               className="group inline-flex items-center gap-12 rounded-full border border-[#9ae9bc] bg-[#b9ffd6] px-1 py-1 text-lg font-semibold text-slate-900 shadow-sm transition hover:border-[#012c3d] hover:bg-[#082228] focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:outline-none"
             >
-              <span className="ml-6 transition font-medium group-hover:text-[#b9ffd6]">
+              <span className="ml-6 font-medium transition group-hover:text-[#b9ffd6]">
                 Subscribe
               </span>
               <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#012c3d] text-[#b9ffd6] transition group-hover:bg-[#b9ffd6] group-hover:text-[#012c3d]">
@@ -153,4 +153,4 @@ const AboutFooter = () => {
   );
 };
 
-export default AboutFooter;
+export default Footer2;
