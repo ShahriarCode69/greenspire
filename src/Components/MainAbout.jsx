@@ -30,7 +30,7 @@ const stats = [
 
 const MainAbout = () => {
   return (
-    <section className="section container">
+    <section className="container pt-44 pb-28">
       <div className="flex flex-col items-start justify-between xl:flex-row">
         <span className="mb-4 inline-flex items-center justify-center rounded-full px-3 py-1 text-base font-medium">
           [ About Us ]
@@ -65,7 +65,7 @@ const MainAbout = () => {
           </div>
           <button
             type="button"
-            className="group mb-16 inline-flex items-center gap-12 rounded-full border border-[#9ae9bc] bg-[#b9ffd6] px-2 py-2 text-lg font-semibold text-slate-900 shadow-sm transition hover:border-[#012c3d] hover:bg-[#012c3d] focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2"
+            className="group mb-16 inline-flex items-center gap-12 rounded-full border border-[#9ae9bc] bg-[#b9ffd6] px-2 py-2 text-lg font-semibold text-slate-900 shadow-sm transition hover:border-[#012c3d] hover:bg-[#012c3d] focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:outline-none"
           >
             <span className="ml-2 transition group-hover:text-[#b9ffd6]">
               Contact Us
